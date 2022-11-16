@@ -1,0 +1,29 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+#grid {
+    height: 960px;
+    width: 960px;
+    display: flex;
+}
+
+button {
+    height: 75px;
+    width: 200px;
+    color: white;
+    background-color: darkgreen;
+    border: solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

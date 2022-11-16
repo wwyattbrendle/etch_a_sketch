@@ -4,10 +4,17 @@ h1 {
     font-size: 80px;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 #grid {
     height: 960px;
     width: 960px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 button {
@@ -26,4 +33,15 @@ button {
 .button {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+}
+
+.original {
+    display: flex;
+    background-color: lightgrey;
+    flex: 1 1 auto;
+}
+
+.original.hovered-over {
+    background-color: slategrey;
 }
